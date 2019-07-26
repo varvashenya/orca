@@ -43,6 +43,7 @@ parameters:
   ignoreErrors:
     # @see https://github.com/acquia/orca/issues/27
     - '#Call to deprecated method registerFile\(\) of class Doctrine\\Common\\Annotations\\AnnotationRegistry#'
+    - '#Class Drupal\\acquia_search\\EventSubscriber\\SearchSubscriber extends deprecated class Solarium\\Core\\Plugin\\Plugin#'
 
 includes:
   - %currentWorkingDirectory%/vendor/mglaman/phpstan-drupal-deprecations/deprecation_testing.neon
